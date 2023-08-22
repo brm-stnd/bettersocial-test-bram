@@ -1,0 +1,12 @@
+# Git
+.git
+.gitignore
+
+*.spec
+/test
+*/middleware/mock
+
+Dockerfile
+.dockerignore
+node_modules
+npm-debug.log
