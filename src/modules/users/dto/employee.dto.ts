@@ -3,6 +3,7 @@ import {
   IsString,
   IsAlphanumeric,
   MinLength,
+  IsOptional,
 } from 'class-validator';
 import { ApiProperty } from '@nestjs/swagger';
 
@@ -28,4 +29,9 @@ export class RegisterBodyDto {
   @MinLength(6)
   @IsString()
   password: string;
+
+  @ApiProperty()
+  @IsOptional()
+  @IsString()
+  profileImage: string;
 }

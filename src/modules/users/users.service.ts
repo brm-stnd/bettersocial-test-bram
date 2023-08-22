@@ -30,7 +30,7 @@ export class UsersService {
     return { status: HttpStatus.OK, result: 'username accepted' };
   }
 
-  async register(username, password): Promise<IUserResponse> {
+  async register(username, password, profileImage): Promise<IUserResponse> {
     const isExist = await this.UsersModel.findOne({
       username,
     });
@@ -45,6 +45,7 @@ export class UsersService {
     this.UsersModel.create({
       username,
       password: hashPassword,
+      profileImage,
     });
 
     return { status: HttpStatus.OK, result: 'registrations success accepted' };

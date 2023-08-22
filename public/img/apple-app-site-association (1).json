@@ -1,0 +1,34 @@
+{
+    "appclips": {
+        "apps": ["RMXJYQCWUX.com.vouch.dinning.clip", "EMF34FQVDF.uat.vouch.homepage.AssistantClip"]
+    },
+    
+    "webcredentials": {
+      "apps": [ "RMXJYQCWUX.com.vouch.dinnin.app" ]
+   },
+
+    "applinks": {
+        "apps": [],
+        "details": 
+	[
+            {
+                "appID": "RMXJYQCWUX.com.vouch.dinning",
+                "paths": [
+                    "*"
+                ]
+            }, {
+                "appID": "RMXJYQCWUX.dev.vouch.dinning",
+                "paths": [
+                    "*"
+                ]
+            }, {
+                "appID": "EMF34FQVDF.uat.vouch.homepage",
+                "paths": [
+                    "/demo/homepage/*"
+                ]
+            }
+
+        ]
+    }
+    
+}
