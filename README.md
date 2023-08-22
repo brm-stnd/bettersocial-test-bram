@@ -33,6 +33,10 @@ This applications build with nest.ts and database use MongoDB
     "username": "bramastana"
 }'`
 
+`curl --location 'localhost:3000/users/upload/profile' \
+--header 'Cookie: connect.sid=s%3APo2KveKKrX82EtNmQqV-F3OACIpRw48i.jX%2BfqngAA1oo0v5FMNcZva%2F7uTH0W%2FINmUWpjczWUdQ' \
+--form 'file=@"/Users/bramastanadewangga/Downloads/WhatsApp Image 2023-07-10 at 2.30.36 PM.jpeg"'`
+
 # How if cant run it
 
 - Please contact me at : brm.stnd@gmail.com
