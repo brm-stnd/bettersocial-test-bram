@@ -1,5 +1,7 @@
 # bettersocial-test-bram
 
+This applications build with nest.ts and database use MongoDB
+
 # How to run program
 
 - go to root directory at this repo and run `npm install`
@@ -9,7 +11,7 @@
 
 - go to root directory at this repo and run `npm run test`
 
-# How to see swagger documantations
+# How to see swagger documentations
 
 - and run the program with `npm run start:dev`
 - at browser access this url : http://localhost:3000/api/docs#/
